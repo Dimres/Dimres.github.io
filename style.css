@@ -1,0 +1,147 @@
+* {
+  transition: 0.5s;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  
+
+}
+
+header {
+background: linear-gradient(90deg, rgba(9,9,121,1) 4%, rgba(0,212,255,1) 100%);
+  width: 100%;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.img {
+  width: 300px;
+  /* height: 100%; */
+}
+
+.menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 40px;
+}
+.menu a{
+  color: whitesmoke;
+  font-family: 'Permanent Marker', cursive;
+  
+}
+.menu a:hover{
+  transform:scale(1.5);
+text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+  
+}
+footer{
+  width: 100%;
+  height: 250px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(9,9,121,1) 4%, rgba(0,212,255,1) 100%);
+}
+.mek{
+  width: 45%;
+  height: 85%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-size: 40px;
+  border-radius: 25%;
+  background: rgb(164,70,252);
+background: radial-gradient(circle, rgba(164,70,252,1) 23%, rgba(63,94,251,1) 84%);
+  
+}
+.mek a{
+  color:whitesmoke;
+  font-family: 'Permanent Marker', cursive;
+  
+}
+.mek a:hover{
+  letter-spacing: 3px;
+}
+#img{
+  width: 100%;
+}
+.gallery{
+  width:100%;
+  
+}
+
+marquee img{
+  height: 200px;
+}
+
+#models, #newmodels{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap:wrap;
+  width: 75%;
+  margin: 50px auto;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color:white;
+  border-radius: 10%;
+}
+.gt4,.xm,.m2,.senna,.Alfa{
+  width:350px;
+  height: 250px;
+  background-color: aqua;
+  margin: 5px;
+  border: 5px blue solid;
+   border-radius:15%;
+  text-align: center;
+}
+#models img {
+  
+  width:80% ;
+  object-fit: cover;
+}
+ .Why{
+  background-color:aqua;
+  text-align: center;
+  width:75%;
+  margin:50px auto;
+  padding:50px;
+  border-radius:15%;
+  justify-content:space-around;
+  align-items:center;
+  
+  
+}
+.Why h2{
+  font-family: 'Permanent Marker', cursive;
+  
+}
+.Why p{
+  text-align:justify;
+  column-count:4;
+  
+  
+}
+.Why iframe{
+  border-radius:8%;
+  margin:20px auto;
+}
